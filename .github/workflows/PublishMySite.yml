@@ -2,10 +2,10 @@ name: publish site
 on:
   push:
     branches:
-      - main
+      - b_dev
   pull_request:
     branches:
-      - main
+      - b_dev
 permissions:
   contents: write      
 jobs:
