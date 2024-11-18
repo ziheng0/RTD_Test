@@ -1,9 +1,9 @@
-.. QuickOpen documentation master file, created by
+.. QuecOpen documentation master file, created by
    sphinx-quickstart on Thu Nov  7 14:19:31 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-QuickOpen documentation
+QuecOpen documentation
 ==========================================================
 
 .. toctree::
