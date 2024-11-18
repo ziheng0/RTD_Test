@@ -18,3 +18,4 @@ Extended Features
    =======
 
    * :ref:`genindex`
+   

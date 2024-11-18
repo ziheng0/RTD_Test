@@ -110,9 +110,6 @@ To make the module supported on Android.
     android/index
 
 
-
-
-
 Features Support
 ==========================================================
 
@@ -124,6 +121,17 @@ To make the module supported on Android.
 
     features/index
 
+
+Test Page
+==========================================================
+
+For testing only
+
+
+.. toctree::
+      :maxdepth: 1
+
+    test_page/index
 
 
 

@@ -3,17 +3,17 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 import os
 import sys
 
+sys.path.insert(0, os.path.abspath('../'))
 
+# -- Project information -----------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'QuickOpen'
-copyright = '2024, biaowang'
-author = 'biaowang'
+project = 'QuecOpen'
+copyright = '2024, admin'
+author = 'admin'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -23,7 +23,12 @@ extensions = [
     'myst_parser',
     "sphinxcontrib.mermaid",
     "sphinx_copybutton",
+    'breathe',
+    
      ]
+
+breathe_projects = { "quecopen": "../build/doxygen/xml" }
+breathe_default_project = "quecopen"
 
 source_suffix = {
             '.rst': 'restructuredtext',
