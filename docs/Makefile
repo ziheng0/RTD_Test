@@ -18,6 +18,6 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	rm $(BUILDDIR)  -rf
-	mkdir -p $(BUILDDIR)/doxygen
-	doxygen $(BUILDDIR)/../Doxyfile 
+#	mkdir -p $(BUILDDIR)/../../doxygen
+#	doxygen $(BUILDDIR)/../Doxyfile 
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
