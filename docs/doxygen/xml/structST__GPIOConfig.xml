@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structST__GPIOConfig" kind="struct" language="C++" prot="public">
+    <compoundname>ST_GPIOConfig</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structST__GPIOConfig_1a1e5c40646d4841c292c75eb913078401" prot="public" static="no" mutable="no">
+        <type>Enum_PinName</type>
+        <definition>Enum_PinName ST_GPIOConfig::pinName</definition>
+        <argsstring></argsstring>
+        <name>pinName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" line="144" column="28" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__GPIOConfig_1a51053015bcf3d3237a5e3709ee52d1b9" prot="public" static="no" mutable="no">
+        <type>Enum_PinDirection</type>
+        <definition>Enum_PinDirection ST_GPIOConfig::pinDirection</definition>
+        <argsstring></argsstring>
+        <name>pinDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" line="145" column="28" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__GPIOConfig_1a067a04e658a26751894377f633df9be0" prot="public" static="no" mutable="no">
+        <type>Enum_PinLevel</type>
+        <definition>Enum_PinLevel ST_GPIOConfig::pinLevel</definition>
+        <argsstring></argsstring>
+        <name>pinLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" line="146" column="28" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__GPIOConfig_1a3e1c473842161881112fe9fedcd4830d" prot="public" static="no" mutable="no">
+        <type>Enum_PinPullSel</type>
+        <definition>Enum_PinPullSel ST_GPIOConfig::pinPullSel</definition>
+        <argsstring></argsstring>
+        <name>pinPullSel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" line="147" column="28" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" line="143" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_gpio.h" bodystart="143" bodyend="148"/>
+    <listofallmembers>
+      <member refid="structST__GPIOConfig_1a51053015bcf3d3237a5e3709ee52d1b9" prot="public" virt="non-virtual"><scope>ST_GPIOConfig</scope><name>pinDirection</name></member>
+      <member refid="structST__GPIOConfig_1a067a04e658a26751894377f633df9be0" prot="public" virt="non-virtual"><scope>ST_GPIOConfig</scope><name>pinLevel</name></member>
+      <member refid="structST__GPIOConfig_1a1e5c40646d4841c292c75eb913078401" prot="public" virt="non-virtual"><scope>ST_GPIOConfig</scope><name>pinName</name></member>
+      <member refid="structST__GPIOConfig_1a3e1c473842161881112fe9fedcd4830d" prot="public" virt="non-virtual"><scope>ST_GPIOConfig</scope><name>pinPullSel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

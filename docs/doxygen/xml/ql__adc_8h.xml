@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ql__adc_8h" kind="file" language="C++">
+    <compoundname>ql_adc.h</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_QADC</name>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420a9b69be65f26b131223c0442692f7cd0c" prot="public">
+          <name>QADC_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420add0cc42ad708e87cf4dd8a5c43c94097" prot="public">
+          <name>ADC0</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420a55d17f14e4a04efc3f0c5144fdb16a9d" prot="public">
+          <name>ADC1</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420a4ace9ef28707cb98c2ccaaff518b3a49" prot="public">
+          <name>CBC</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420a246a534bca85a0d87ddcb59e28c55d32" prot="public">
+          <name>ADC2</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__adc_8h_1a970ace2204ef224d0f30f53dab944420a4257537d1f65f7808fcd018553c03e12" prot="public">
+          <name>QADC_END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_adc.h" line="10" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_adc.h" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ql__adc_8h_1ab66fccd3d88f484094849586d2d7a5d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ql_adc_show</definition>
+        <argsstring>(Enum_QADC qadc)</argsstring>
+        <name>ql_adc_show</name>
+        <param>
+          <type>Enum_QADC</type>
+          <declname>qadc</declname>
+        </param>
+        <briefdescription>
+<para>This function retrieves the ADC voltage value with the specified ADC channel. Support input vol value: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>ADC0 : 0.3V-VBAT_BB(3.8V)</para>
+</listitem><listitem><para>ADC1 : 0.3V-VBAT_BB</para>
+</listitem><listitem><para>ADC2 : 0.1V-1.7V</para>
+</listitem></itemizedlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">qadc</parametername>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel definitions, one value of Enum_QADC. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+<itemizedlist>
+<listitem><para>adc value(mv) on success</para>
+</listitem><listitem><para>on failure, the return value is -1; </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_adc.h" line="34" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_adc.h" declline="34" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*============================================================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2017<sp/>Quectel<sp/>Wireless<sp/>Solution,<sp/>Co.,<sp/>Ltd.<sp/><sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Quectel<sp/>Wireless<sp/>Solution<sp/>Proprietary<sp/>and<sp/>Confidential.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>=============================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_QL_ADC_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_QL_ADC_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QADC_NONE<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ADC0<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ADC1<sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>CBC<sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ADC2<sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>QADC_END</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}Enum_QADC;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ql_adc_show(Enum_QADC<sp/>qadc);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_adc.h"/>
+  </compounddef>
+</doxygen>

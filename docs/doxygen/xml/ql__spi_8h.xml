@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ql__spi_8h" kind="file" language="C++">
+    <compoundname>ql_spi.h</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="ql__spi_8h_1ae506139af46f1328f631ddacd54af96d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SPI_MODE</name>
+        <enumvalue id="ql__spi_8h_1ae506139af46f1328f631ddacd54af96da617911eb57672b0bbb88b9ab034d0ca2" prot="public">
+          <name>SPIMODE0</name>
+          <initializer>=   SPI_MODE_0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1ae506139af46f1328f631ddacd54af96dab2221e39a689e791d546443cfb3d7a2e" prot="public">
+          <name>SPIMODE1</name>
+          <initializer>=   SPI_MODE_1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1ae506139af46f1328f631ddacd54af96dab3f63b43a2db0162bac4d0e101f0a0f9" prot="public">
+          <name>SPIMODE2</name>
+          <initializer>=   SPI_MODE_2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1ae506139af46f1328f631ddacd54af96da047a00ab2b63747e600aae8a413c6b6a" prot="public">
+          <name>SPIMODE3</name>
+          <initializer>=   SPI_MODE_3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h" line="13" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_spi.h" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SPI_SPEED</name>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fa31981f9bc40d0ce2389a8be49a990274" prot="public">
+          <name>S_960K</name>
+          <initializer>=   960000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fa71e4b164fa5e8a3dfcd4201681470133" prot="public">
+          <name>S_4_8M</name>
+          <initializer>=   4800000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fae8332990c56b035216170957e2e61b52" prot="public">
+          <name>S_9_6M</name>
+          <initializer>=   9600000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fa36ed08c5783c0762077e7571550199e7" prot="public">
+          <name>S_16M</name>
+          <initializer>=   16000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fa0f349bef345d8691d6ac5f04cd5cf86a" prot="public">
+          <name>S_19_2M</name>
+          <initializer>=   19200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427fad0536992c76e0ec50a853bded91fb09f" prot="public">
+          <name>S_25M</name>
+          <initializer>=   25000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__spi_8h_1a92b13fd51af2a9a09b1854520a5a427faa92cf0593183e76bf24f679eef6e1699" prot="public">
+          <name>S_50M</name>
+          <initializer>=   50000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>SPI default support frequency. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h" line="25" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_spi.h" bodystart="26" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ql__spi_8h_1ad36dfb5d4d6d9f8b470175b782a723df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_SPI_Init</definition>
+        <argsstring>(char *dev_name, SPI_MODE mode, uint8_t bits, SPI_SPEED speed)</argsstring>
+        <name>Ql_SPI_Init</name>
+        <param>
+          <type>char *</type>
+          <declname>dev_name</declname>
+        </param>
+        <param>
+          <type>SPI_MODE</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>SPI_SPEED</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+<para>spi init </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev_name:need</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to insmod spidev.ko or quec_spi_chn.ko, The corresponding device can be found in the &quot;/dev/&quot; directory. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode:the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>default is mode0<itemizedlist>
+<listitem><para>CPOL:when spi work in idles,the level of sclk, 1:HIGH,0:LOW</para>
+</listitem><listitem><para>CHPA:sample on the first few edges of sclk 0:the first edge 1:the second edge </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bits:bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of word, Supports 4 to 32 bits per word of transfer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed:the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>max spi speed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>spi_fd when successfully</para>
+</listitem><listitem><para>-1 when failed </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h" line="50" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_spi.h" declline="50" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__spi_8h_1a99220d4dabf0d44d9c55c9a833f6a00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_SPI_Write_Read</definition>
+        <argsstring>(int fd, uint8_t *write_buf, uint8_t *read_buf, uint32_t len)</argsstring>
+        <name>Ql_SPI_Write_Read</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>write_buf</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>read_buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>write and read spi data </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd:spi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>file description </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>write_buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the pointer to write data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>read_buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the pointer to read data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len:the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>0 when successfully</para>
+</listitem><listitem><para>negative value when failed </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h" line="64" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_spi.h" declline="64" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__spi_8h_1a5b3dab723bde490cf5d7ca5f61882605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_SPI_DeInit</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>Ql_SPI_DeInit</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+<para>close spi device fd </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h" line="73" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_spi.h" declline="73" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/>Copyright<sp/>Statement:</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/>--------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/>This<sp/>software<sp/>is<sp/>protected<sp/>by<sp/>Copyright<sp/>and<sp/>the<sp/>information<sp/>contained</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/>herein<sp/>is<sp/>confidential.<sp/>The<sp/>software<sp/>may<sp/>not<sp/>be<sp/>copied<sp/>and<sp/>the<sp/>information</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/>contained<sp/>herein<sp/>may<sp/>not<sp/>be<sp/>used<sp/>or<sp/>disclosed<sp/>except<sp/>with<sp/>the<sp/>written</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/>permission<sp/>of<sp/>Quectel<sp/>Co.,<sp/>Ltd.<sp/>2016</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QL_SPI_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QL_SPI_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>SPIMODE0<sp/><sp/>=<sp/><sp/><sp/>SPI_MODE_0,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>SPIMODE1<sp/><sp/>=<sp/><sp/><sp/>SPI_MODE_1,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>SPIMODE2<sp/><sp/>=<sp/><sp/><sp/>SPI_MODE_2,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>SPIMODE3<sp/><sp/>=<sp/><sp/><sp/>SPI_MODE_3,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}SPI_MODE;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>S_960K<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>960000,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>S_4_8M<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>4800000,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>S_9_6M<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>9600000,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>S_16M<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>16000000,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>S_19_2M<sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>19200000,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>S_25M<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>25000000,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>S_50M<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/>50000000,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}SPI_SPEED;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_SPI_Init(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dev_name,SPI_MODE<sp/>mode,uint8_t<sp/>bits,SPI_SPEED<sp/>speed);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_SPI_Write_Read(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,uint8_t*<sp/>write_buf,uint8_t*<sp/>read_buf,uint32_t<sp/>len);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_SPI_DeInit(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_spi.h"/>
+  </compounddef>
+</doxygen>

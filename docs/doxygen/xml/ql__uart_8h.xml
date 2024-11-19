@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ql__uart_8h" kind="file" language="C++">
+    <compoundname>ql_uart.h</compoundname>
+    <innerclass refid="structST__UARTDCB" prot="public">ST_UARTDCB</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="ql__uart_8h_1aee6847237fdea2f7d6c8662d56ecb42d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_FlowCtrl</name>
+        <enumvalue id="ql__uart_8h_1aee6847237fdea2f7d6c8662d56ecb42da8cb136d5b5a7e055812fe9bb5b4a4420" prot="public">
+          <name>FC_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1aee6847237fdea2f7d6c8662d56ecb42da4e543848aa946ade6ee8872294196b21" prot="public">
+          <name>FC_RTSCTS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1aee6847237fdea2f7d6c8662d56ecb42dae63d075558d3514ed5bf92f38c1c5a4f" prot="public">
+          <name>FC_XONXOFF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="13" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="ql__uart_8h_1a077204c6b9fc12895657bd452790335e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_ParityBit</name>
+        <enumvalue id="ql__uart_8h_1a077204c6b9fc12895657bd452790335ea96c7444e479395f13cb67887607a2584" prot="public">
+          <name>PB_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a077204c6b9fc12895657bd452790335eaf91286e51a4b93ac22564fd428d504da" prot="public">
+          <name>PB_ODD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a077204c6b9fc12895657bd452790335ea1bc43c2e9b898a57ad09376c2da3bc63" prot="public">
+          <name>PB_EVEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="19" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="ql__uart_8h_1aee85e6f614161afbaa7f514d0bced6c2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_DataBit</name>
+        <enumvalue id="ql__uart_8h_1aee85e6f614161afbaa7f514d0bced6c2a76159e7d19f1fa99d153e2730fde8b0e" prot="public">
+          <name>DB_CS5</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1aee85e6f614161afbaa7f514d0bced6c2a259bf92d0391e6c9c3d161f704c94518" prot="public">
+          <name>DB_CS6</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1aee85e6f614161afbaa7f514d0bced6c2a20a76920ae7b0a9b3136cbb73abf40b6" prot="public">
+          <name>DB_CS7</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1aee85e6f614161afbaa7f514d0bced6c2a33d98cc071cc99d819840223e0543f01" prot="public">
+          <name>DB_CS8</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="25" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="ql__uart_8h_1ab9a07d74389263d71a364919841768c5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_StopBit</name>
+        <enumvalue id="ql__uart_8h_1ab9a07d74389263d71a364919841768c5af0ceb3450c75dfcdf01f353ca90f16f2" prot="public">
+          <name>SB_1</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1ab9a07d74389263d71a364919841768c5a35671f15f635748b9429f1be7d8e68c0" prot="public">
+          <name>SB_2</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="32" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Enum_BaudRate</name>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311dabd0f221fb68bcb918831d4eb9d5e2e53" prot="public">
+          <name>B_300</name>
+          <initializer>= 300</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311daad53e0d4baaafd1d93514a739f25d89e" prot="public">
+          <name>B_600</name>
+          <initializer>= 600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311dae3f5102fc8661e8b758980d442c11b8e" prot="public">
+          <name>B_1200</name>
+          <initializer>= 1200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da2898cf1c1e6cdb0b7fc6fff5c142c4ba" prot="public">
+          <name>B_2400</name>
+          <initializer>= 2400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da27a92d1ac239b3d44e3a8fc27b6b039f" prot="public">
+          <name>B_4800</name>
+          <initializer>= 4800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311dae7bf4de131e0edb182e39d87d3027018" prot="public">
+          <name>B_9600</name>
+          <initializer>= 9600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da4ecf44e3017ea2b99239d127250289d1" prot="public">
+          <name>B_19200</name>
+          <initializer>= 19200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311daba0b508458bf2a54509bb8a20478ca93" prot="public">
+          <name>B_38400</name>
+          <initializer>= 38400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da499f4f816c2ffec705d374891bc6eb51" prot="public">
+          <name>B_57600</name>
+          <initializer>= 57600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311dae5aff27725ed62df17a9d52c9435d0d5" prot="public">
+          <name>B_115200</name>
+          <initializer>= 115200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da9ec9266a076b069458fcabcac21f748f" prot="public">
+          <name>B_230400</name>
+          <initializer>= 230400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da21ad7fcd22fa960013c3a98aa73e9bf5" prot="public">
+          <name>B_460800</name>
+          <initializer>= 460800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311dad2d4f12fc15023745248000963b2cd9b" prot="public">
+          <name>B_921600</name>
+          <initializer>= 921600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da06f27410bfac22a48db5e4a3588a16aa" prot="public">
+          <name>B_3000000</name>
+          <initializer>= 3000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ql__uart_8h_1a1b09481c48afc928ad100f034b18311da2dedb4922f98d975056da7108fc75281" prot="public">
+          <name>B_4000000</name>
+          <initializer>= 4000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="37" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="37" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ql__uart_8h_1a3ed46b89abe02849a6cc500e07dfd534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_Open</definition>
+        <argsstring>(const char *port, Enum_BaudRate baudrate, Enum_FlowCtrl flowctrl)</argsstring>
+        <name>Ql_UART_Open</name>
+        <param>
+          <type>const char *</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>Enum_BaudRate</type>
+          <declname>baudrate</declname>
+        </param>
+        <param>
+          <type>Enum_FlowCtrl</type>
+          <declname>flowctrl</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_Open. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>baudrate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flowctrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+<simplesect kind="par"><title>eg:</title><para>int fd = Ql_UART_Open(&quot;/dev/ttyUSB0&quot;, B_115200, FC_NONE); </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="73" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="73" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1a956135e7289e35f7e7b0e2d7e4307880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_Read</definition>
+        <argsstring>(int fd, char *buf, unsigned int buf_len)</argsstring>
+        <name>Ql_UART_Read</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>buf_len</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_Read. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+<simplesect kind="par"><title>eg:</title><para><programlisting><codeline><highlight class="normal">char<sp/>buf[100];</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret<sp/>=<sp/>Ql_UART_Read(fd,<sp/>buf,<sp/>sizeof(buf));</highlight></codeline>
+</programlisting> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="88" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="88" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1ae600846724cc4fee375138f6d214183a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_Write</definition>
+        <argsstring>(int fd, const char *buf, unsigned int buf_len)</argsstring>
+        <name>Ql_UART_Write</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>buf_len</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_Write. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="97" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="97" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1a6447c2cadd8dd43139ef3740c8fe346d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_SetDCB</definition>
+        <argsstring>(int fd, ST_UARTDCB *dcb)</argsstring>
+        <name>Ql_UART_SetDCB</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type><ref refid="structST__UARTDCB" kindref="compound">ST_UARTDCB</ref> *</type>
+          <declname>dcb</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_SetDCB. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dcb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="105" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="105" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1a7782e8b4a8edef7777954a0e8c3da03b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_GetDCB</definition>
+        <argsstring>(int fd, ST_UARTDCB *dcb)</argsstring>
+        <name>Ql_UART_GetDCB</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type><ref refid="structST__UARTDCB" kindref="compound">ST_UARTDCB</ref> *</type>
+          <declname>dcb</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_GetDCB. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dcb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="113" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="113" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1a2419db2cea42fb9bbd8bfe560e9da0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_IoCtl</definition>
+        <argsstring>(int fd, unsigned int cmd, void *pValue)</argsstring>
+        <name>Ql_UART_IoCtl</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pValue</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_IoCtl. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="123" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="123" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__uart_8h_1a52657443b3048331cc1ad0eda7f790ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_UART_Close</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>Ql_UART_Close</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+<para>Ql_UART_Close. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="131" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" declline="131" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/>Copyright<sp/>Statement:</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/>--------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/>This<sp/>software<sp/>is<sp/>protected<sp/>by<sp/>Copyright<sp/>and<sp/>the<sp/>information<sp/>contained</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/>herein<sp/>is<sp/>confidential.<sp/>The<sp/>software<sp/>may<sp/>not<sp/>be<sp/>copied<sp/>and<sp/>the<sp/>information</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/>contained<sp/>herein<sp/>may<sp/>not<sp/>be<sp/>used<sp/>or<sp/>disclosed<sp/>except<sp/>with<sp/>the<sp/>written</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/>permission<sp/>of<sp/>Quectel<sp/>Co.,<sp/>Ltd.<sp/>2016</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QL_UART_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QL_UART_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>FC_NONE<sp/>=<sp/>0,<sp/><sp/></highlight><highlight class="comment">//<sp/>None<sp/>Flow<sp/>Control</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>FC_RTSCTS,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hardware<sp/>Flow<sp/>Control<sp/>(rtscts)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>FC_XONXOFF<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Software<sp/>Flow<sp/>Control<sp/>(xon/xoff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}Enum_FlowCtrl;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>PB_NONE<sp/>=<sp/>0,<sp/><sp/></highlight><highlight class="comment">//none<sp/>parity<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>PB_ODD,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//odd<sp/>parity<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>PB_EVEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//even<sp/>parity<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}Enum_ParityBit;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>DB_CS5<sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>DB_CS6<sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>DB_CS7<sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>DB_CS8<sp/>=<sp/>8</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}Enum_DataBit;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>SB_1<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>SB_2<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}Enum_StopBit;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>B_300<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>300,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>B_600<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>600,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>B_1200<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1200,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>B_2400<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2400,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>B_4800<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4800,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>B_9600<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9600,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>B_19200<sp/><sp/><sp/><sp/><sp/>=<sp/>19200,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>B_38400<sp/><sp/><sp/><sp/><sp/>=<sp/>38400,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>B_57600<sp/><sp/><sp/><sp/><sp/>=<sp/>57600,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>B_115200<sp/><sp/><sp/><sp/>=<sp/>115200,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>B_230400<sp/><sp/><sp/><sp/>=<sp/>230400,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>B_460800<sp/><sp/><sp/><sp/>=<sp/>460800,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>B_921600<sp/><sp/><sp/><sp/>=<sp/>921600,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>B_3000000<sp/><sp/><sp/>=<sp/>3000000,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>B_4000000<sp/><sp/><sp/>=<sp/>4000000,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}Enum_BaudRate;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structST__UARTDCB" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>Enum_BaudRate<sp/><sp/><sp/><sp/><sp/><sp/><sp/>baudrate;<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>Enum_DataBit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>databit;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>Enum_StopBit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stopbit;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>Enum_ParityBit<sp/><sp/><sp/><sp/><sp/><sp/>parity;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>Enum_FlowCtrl<sp/><sp/><sp/><sp/><sp/><sp/><sp/>flowctrl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<ref refid="structST__UARTDCB" kindref="compound">ST_UARTDCB</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_Open(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>port,<sp/>Enum_BaudRate<sp/>baudrate,<sp/>Enum_FlowCtrl<sp/>flowctrl);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_Read(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buf_len);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_Write(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buf_len);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_SetDCB(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/><ref refid="structST__UARTDCB" kindref="compound">ST_UARTDCB</ref><sp/>*dcb);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_GetDCB(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/><ref refid="structST__UARTDCB" kindref="compound">ST_UARTDCB</ref><sp/>*dcb);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_IoCtl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cmd,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pValue);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_UART_Close(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//__QL_UART_H__</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h"/>
+  </compounddef>
+</doxygen>

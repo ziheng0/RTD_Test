@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ql__dev_8h" kind="file" language="C++">
+    <compoundname>ql_dev.h</compoundname>
+    <innerclass refid="structql__oem__about__info__s" prot="public">ql_oem_about_info_s</innerclass>
+    <innerclass refid="structql__module__about__info__s" prot="public">ql_module_about_info_s</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ql__dev_8h_1aa27bc23d0d4b45540012160329767028" prot="public" static="no">
+        <name>QL_OEM_ABOUT_MAX_COUNT</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="14" column="9" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ql__dev_8h_1a2a848acc7fe216001405812d8831cc49" prot="public" static="no">
+        <name>QL_OEM_ABOUT_NAME_MAX_SIZE</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="15" column="9" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ql__dev_8h_1a7dfc10eab058cc2205d27bb567831acc" prot="public" static="no">
+        <name>QL_OEM_ABOUT_INFO_MAX_SIZE</name>
+        <initializer>128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="16" column="9" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ql__dev_8h_1adfea1dfd3d9a5d321f08d6053f59c937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_DEV_GetImei</definition>
+        <argsstring>(char *imei, size_t imeiLen)</argsstring>
+        <name>QL_DEV_GetImei</name>
+        <param>
+          <type>char *</type>
+          <declname>imei</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>imeiLen</declname>
+        </param>
+        <briefdescription>
+<para>Get the IMEI string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imei</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imeiLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input buffer length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="47" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="47" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1aed4a47dd205ee93155a1d160771237e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_DEV_GetFirmwareVersion</definition>
+        <argsstring>(char *version, size_t versionLen)</argsstring>
+        <name>QL_DEV_GetFirmwareVersion</name>
+        <param>
+          <type>char *</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>versionLen</declname>
+        </param>
+        <briefdescription>
+<para>Get the FirmwareVersion string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>version</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>versionLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input buffer length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="59" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="59" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a218367419dfddb878380f22eaef30faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_DEV_GetDeviceModel</definition>
+        <argsstring>(char *model, size_t modelLen)</argsstring>
+        <name>QL_DEV_GetDeviceModel</name>
+        <param>
+          <type>char *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>modelLen</declname>
+        </param>
+        <briefdescription>
+<para>Get the DeviceModel string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>modelLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="70" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="70" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a6fdd938ff2beec522f4c13635770871a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_DEV_GetMeid</definition>
+        <argsstring>(char *meid, size_t meidLen)</argsstring>
+        <name>QL_DEV_GetMeid</name>
+        <param>
+          <type>char *</type>
+          <declname>meid</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>meidLen</declname>
+        </param>
+        <briefdescription>
+<para>Get the MEID string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meidLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="79" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="79" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a5c28c9f112edd92b1572c5a1da13b155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_DEV_GetEsn</definition>
+        <argsstring>(char *esn, size_t esnLen)</argsstring>
+        <name>QL_DEV_GetEsn</name>
+        <param>
+          <type>char *</type>
+          <declname>esn</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>esnLen</declname>
+        </param>
+        <briefdescription>
+<para>Get the ESN string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>esn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>esnLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: input buffer length </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="89" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="89" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a9733aa180e6b4f5c4b857893ad0d31cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_OEM_About_Get</definition>
+        <argsstring>(ql_oem_about_info_s *about, int about_count)</argsstring>
+        <name>QL_OEM_About_Get</name>
+        <param>
+          <type><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref> *</type>
+          <declname>about</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>about_count</declname>
+        </param>
+        <briefdescription>
+<para>Get OEM About&apos;s Info. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>about</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>save about result, </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>about_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>about buffer num </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int actual about count </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="100" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="100" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a4c4dea463f328a991a08b0c2a3abd6f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_OEM_About_Set</definition>
+        <argsstring>(ql_oem_about_info_s *about, int about_count)</argsstring>
+        <name>QL_OEM_About_Set</name>
+        <param>
+          <type><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref> *</type>
+          <declname>about</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>about_count</declname>
+        </param>
+        <briefdescription>
+<para>Set OEM About&apos;s Info. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>about</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input about info, </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>about_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>about nums </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int actual about count </para>
+</simplesect>
+<simplesect kind="note"><para>: it will cleal all old info </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="111" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="111" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a358b862b594c49684dc47b1be3b2bb47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_OEM_About_Get_ByName</definition>
+        <argsstring>(ql_oem_about_info_s *about)</argsstring>
+        <name>QL_OEM_About_Get_ByName</name>
+        <param>
+          <type><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref> *</type>
+          <declname>about</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>about</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="119" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="119" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1ae1d621df8e7b853bddebfbf3e006e135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_OEM_About_Set_ByName</definition>
+        <argsstring>(ql_oem_about_info_s *about)</argsstring>
+        <name>QL_OEM_About_Set_ByName</name>
+        <param>
+          <type><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref> *</type>
+          <declname>about</declname>
+        </param>
+        <briefdescription>
+<para>QL_OEM_About_Set_ByName. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>about</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="127" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="127" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__dev_8h_1a03efad23f3c6ba793b3e554097a29758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int QL_Module_About_Get</definition>
+        <argsstring>(ql_module_about_info_s *about)</argsstring>
+        <name>QL_Module_About_Get</name>
+        <param>
+          <type><ref refid="structql__module__about__info__s" kindref="compound">ql_module_about_info_s</ref> *</type>
+          <declname>about</declname>
+        </param>
+        <briefdescription>
+<para>QL_Module_About_Get. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>about</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="135" column="12" declfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" declline="135" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment"><sp/>/*****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/><sp/>Copyright<sp/>Statement:</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/><sp/>--------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/><sp/>This<sp/>software<sp/>is<sp/>protected<sp/>by<sp/>Copyright<sp/>and<sp/>the<sp/>information<sp/>contained</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/><sp/>herein<sp/>is<sp/>confidential.<sp/>The<sp/>software<sp/>may<sp/>not<sp/>be<sp/>copied<sp/>and<sp/>the<sp/>information</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/><sp/>contained<sp/>herein<sp/>may<sp/>not<sp/>be<sp/>used<sp/>or<sp/>disclosed<sp/>except<sp/>with<sp/>the<sp/>written</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/><sp/>permission<sp/>of<sp/>Quectel<sp/>Co.,<sp/>Ltd.<sp/>2016</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QL_DEV_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QL_DEV_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QL_OEM_ABOUT_MAX_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QL_OEM_ABOUT_NAME_MAX_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QL_OEM_ABOUT_INFO_MAX_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>128</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structql__oem__about__info__s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>oem_info_name[QL_OEM_ABOUT_NAME_MAX_SIZE<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>oem_info_vaule[QL_OEM_ABOUT_INFO_MAX_SIZE<sp/>+<sp/>1];<sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}<sp/><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structql__module__about__info__s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>manufacturer[33];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>product_name[33];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>firmware_version[65];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>firmware_date[33];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>apps_verison[65];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>oem_about_count;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref><sp/>oem_about[QL_OEM_ABOUT_MAX_COUNT];</highlight><highlight class="comment">//only<sp/>support<sp/>max<sp/>32<sp/>item<sp/>info</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/><ref refid="structql__module__about__info__s" kindref="compound">ql_module_about_info_s</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_DEV_GetImei(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>imei,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>imeiLen);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_DEV_GetFirmwareVersion(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>version,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>versionLen);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_DEV_GetDeviceModel(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>model,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>modelLen);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_DEV_GetMeid(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>meid,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>meidLen);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_DEV_GetEsn(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>esn,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>esnLen);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_OEM_About_Get(<ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref><sp/>*about,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>about_count);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_OEM_About_Set(<ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref><sp/>*about,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>about_count);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_OEM_About_Get_ByName(<ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref><sp/>*about);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_OEM_About_Set_ByName(<ref refid="structql__oem__about__info__s" kindref="compound">ql_oem_about_info_s</ref><sp/>*about);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>QL_Module_About_Get(<ref refid="structql__module__about__info__s" kindref="compound">ql_module_about_info_s</ref><sp/>*about);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>__QL_DEV_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h"/>
+  </compounddef>
+</doxygen>

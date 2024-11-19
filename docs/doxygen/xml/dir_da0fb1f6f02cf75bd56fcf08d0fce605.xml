@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_da0fb1f6f02cf75bd56fcf08d0fce605" kind="dir">
+    <compoundname>/home/ol/git/RTD_Test/example/inc</compoundname>
+    <innerfile refid="ql__adc_8h">ql_adc.h</innerfile>
+    <innerfile refid="ql__at_8h">ql_at.h</innerfile>
+    <innerfile refid="ql__dev_8h">ql_dev.h</innerfile>
+    <innerfile refid="ql__error_8h">ql_error.h</innerfile>
+    <innerfile refid="ql__gpio_8h">ql_gpio.h</innerfile>
+    <innerfile refid="ql__i2c_8h">ql_i2c.h</innerfile>
+    <innerfile refid="ql__spi_8h">ql_spi.h</innerfile>
+    <innerfile refid="ql__uart_8h">ql_uart.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ol/git/RTD_Test/example/inc/"/>
+  </compounddef>
+</doxygen>

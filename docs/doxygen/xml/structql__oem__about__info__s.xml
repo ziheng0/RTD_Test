@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structql__oem__about__info__s" kind="struct" language="C++" prot="public">
+    <compoundname>ql_oem_about_info_s</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structql__oem__about__info__s_1a51f7da0a99c488465c8f6545e75dd838" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ql_oem_about_info_s::oem_info_name[QL_OEM_ABOUT_NAME_MAX_SIZE+1]</definition>
+        <argsstring>[QL_OEM_ABOUT_NAME_MAX_SIZE+1]</argsstring>
+        <name>oem_info_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="19" column="10" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structql__oem__about__info__s_1aeff2aa914fe4bccdc8888ec3aff3143f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ql_oem_about_info_s::oem_info_vaule[QL_OEM_ABOUT_INFO_MAX_SIZE+1]</definition>
+        <argsstring>[QL_OEM_ABOUT_INFO_MAX_SIZE+1]</argsstring>
+        <name>oem_info_vaule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="20" column="10" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_dev.h" line="18" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_dev.h" bodystart="18" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structql__oem__about__info__s_1a51f7da0a99c488465c8f6545e75dd838" prot="public" virt="non-virtual"><scope>ql_oem_about_info_s</scope><name>oem_info_name</name></member>
+      <member refid="structql__oem__about__info__s_1aeff2aa914fe4bccdc8888ec3aff3143f" prot="public" virt="non-virtual"><scope>ql_oem_about_info_s</scope><name>oem_info_vaule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

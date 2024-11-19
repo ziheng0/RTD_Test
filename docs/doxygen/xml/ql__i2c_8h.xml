@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ql__i2c_8h" kind="file" language="C++">
+    <compoundname>ql_i2c.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ql__i2c_8h_1aa61164761bae5e1d2b65a7525447cf2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_I2C_Init</definition>
+        <argsstring>(char *dev_name)</argsstring>
+        <name>Ql_I2C_Init</name>
+        <param>
+          <type>char *</type>
+          <declname>dev_name</declname>
+        </param>
+        <briefdescription>
+<para>Initialize the module I2C device, and return the I2C device FD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dev_name</parametername>
+<parametername direction="in">the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>i2c device name. developer may refer to the development guidance document for the available device name.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>on success, a non-negative integer for I2C device FD is returned. on failure, the return value is -1;</para>
+</simplesect>
+@dependencies none. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" line="28" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" declline="28" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__i2c_8h_1a9d374159c528f7e837eef251fd84e59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_I2C_Read</definition>
+        <argsstring>(int fd, unsigned short slaveAddr, unsigned char ofstAddr, unsigned char *ptrBuff, unsigned short length)</argsstring>
+        <name>Ql_I2C_Read</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>slaveAddr</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>ofstAddr</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>ptrBuff</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" line="55" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" declline="55" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__i2c_8h_1abab0fcd38ccc03fa5893588909cd357c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_I2C_Write</definition>
+        <argsstring>(int fd, unsigned short slaveAddr, unsigned char ofstAddr, unsigned char *ptrData, unsigned short length)</argsstring>
+        <name>Ql_I2C_Write</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>slaveAddr</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>ofstAddr</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>ptrData</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" line="82" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" declline="82" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="ql__i2c_8h_1a17f2dbc4c43d74b622368ee1f91b0330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ql_I2C_Deinit</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>Ql_I2C_Deinit</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" line="89" column="5" declfile="/home/ol/git/RTD_Test/example/inc/ql_i2c.h" declline="89" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*============================================================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2017<sp/>Quectel<sp/>Wireless<sp/>Solution,<sp/>Co.,<sp/>Ltd.<sp/><sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Quectel<sp/>Wireless<sp/>Solution<sp/>Proprietary<sp/>and<sp/>Confidential.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>=============================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QL_I2C_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QL_I2C_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*========================================================================</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>FUNCTION:<sp/><sp/>Ql_I2C_Init</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*=======================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_I2C_Init(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dev_name);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/>Function:<sp/><sp/><sp/><sp/><sp/>Ql_I2C_Read</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*<sp/>Description:</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Read<sp/>the<sp/>specified<sp/>length<sp/>of<sp/>data<sp/>from<sp/>the<sp/>target<sp/>address<sp/>of<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>specified<sp/>I2C<sp/>slave<sp/>device.<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/>Parameters:</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slaveAddr:</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slave<sp/>address.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofstAddr:</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>register<sp/>address.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptrBuff:</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A<sp/>pointer<sp/>to<sp/>the<sp/>buffer<sp/>to<sp/>store<sp/>data.<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>length:</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>lenght<sp/>to<sp/>read.<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/>Return:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RES_OK,<sp/>this<sp/>function<sp/>succeeds.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>or,<sp/>failed<sp/>to<sp/>execute<sp/>the<sp/>function.<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_I2C_Read(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>slaveAddr,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ofstAddr,<sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ptrBuff,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">*<sp/>Function:<sp/><sp/><sp/><sp/><sp/>Ql_I2C_Write</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*<sp/>Description:</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Write<sp/>the<sp/>specified<sp/>length<sp/>of<sp/>data<sp/>to<sp/>the<sp/>target<sp/>address<sp/>of<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>specified<sp/>I2C<sp/>slave<sp/>device.<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="65"><highlight class="comment">*<sp/>Parameters:</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slaveAddr:</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>slave<sp/>address.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="69"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofstAddr:</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>register<sp/>address.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptrData:</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A<sp/>pointer<sp/>to<sp/>the<sp/>data<sp/>buffer<sp/>to<sp/>write.<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>length:</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>lenght<sp/>to<sp/>read.<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="comment">*<sp/>Return:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RES_OK,<sp/>this<sp/>function<sp/>succeeds.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>or,<sp/>failed<sp/>to<sp/>execute<sp/>the<sp/>function.<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_I2C_Write(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>slaveAddr,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ofstAddr,<sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ptrData,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Perform<sp/>the<sp/>I/O<sp/>control<sp/>operation<sp/>specified<sp/>by<sp/>REQUEST<sp/>on<sp/>FD.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/>One<sp/>argument<sp/>may<sp/>follow;<sp/>its<sp/>presence<sp/>and<sp/>type<sp/>depend<sp/>on<sp/>REQUEST.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>value<sp/>depends<sp/>on<sp/>REQUEST.<sp/><sp/>Usually<sp/>-1<sp/>indicates<sp/>error.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//extern<sp/>int<sp/>ioctl<sp/>(int<sp/>__fd,<sp/>unsigned<sp/>long<sp/>int<sp/>__request,<sp/>...)<sp/>__THROW;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ql_I2C_Deinit(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//__QL_I2C_H__</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_i2c.h"/>
+  </compounddef>
+</doxygen>

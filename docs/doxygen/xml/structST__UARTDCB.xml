@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structST__UARTDCB" kind="struct" language="C++" prot="public">
+    <compoundname>ST_UARTDCB</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structST__UARTDCB_1a350131eedb03341930323f454094992d" prot="public" static="no" mutable="no">
+        <type>Enum_BaudRate</type>
+        <definition>Enum_BaudRate ST_UARTDCB::baudrate</definition>
+        <argsstring></argsstring>
+        <name>baudrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="56" column="25" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__UARTDCB_1ac9be2c90e9c8ca0b455755de232e9ccd" prot="public" static="no" mutable="no">
+        <type>Enum_DataBit</type>
+        <definition>Enum_DataBit ST_UARTDCB::databit</definition>
+        <argsstring></argsstring>
+        <name>databit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="57" column="24" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__UARTDCB_1ac7ba03fa7e889c339a671b9ccda18473" prot="public" static="no" mutable="no">
+        <type>Enum_StopBit</type>
+        <definition>Enum_StopBit ST_UARTDCB::stopbit</definition>
+        <argsstring></argsstring>
+        <name>stopbit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="58" column="24" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__UARTDCB_1a6dc2839d3557e44daa4f3a42f6771626" prot="public" static="no" mutable="no">
+        <type>Enum_ParityBit</type>
+        <definition>Enum_ParityBit ST_UARTDCB::parity</definition>
+        <argsstring></argsstring>
+        <name>parity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="59" column="25" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structST__UARTDCB_1af2f6f672bcb57b16b66c9d7adab67a69" prot="public" static="no" mutable="no">
+        <type>Enum_FlowCtrl</type>
+        <definition>Enum_FlowCtrl ST_UARTDCB::flowctrl</definition>
+        <argsstring></argsstring>
+        <name>flowctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="60" column="25" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ol/git/RTD_Test/example/inc/ql_uart.h" line="55" column="1" bodyfile="/home/ol/git/RTD_Test/example/inc/ql_uart.h" bodystart="55" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structST__UARTDCB_1a350131eedb03341930323f454094992d" prot="public" virt="non-virtual"><scope>ST_UARTDCB</scope><name>baudrate</name></member>
+      <member refid="structST__UARTDCB_1ac9be2c90e9c8ca0b455755de232e9ccd" prot="public" virt="non-virtual"><scope>ST_UARTDCB</scope><name>databit</name></member>
+      <member refid="structST__UARTDCB_1af2f6f672bcb57b16b66c9d7adab67a69" prot="public" virt="non-virtual"><scope>ST_UARTDCB</scope><name>flowctrl</name></member>
+      <member refid="structST__UARTDCB_1a6dc2839d3557e44daa4f3a42f6771626" prot="public" virt="non-virtual"><scope>ST_UARTDCB</scope><name>parity</name></member>
+      <member refid="structST__UARTDCB_1ac7ba03fa7e889c339a671b9ccda18473" prot="public" virt="non-virtual"><scope>ST_UARTDCB</scope><name>stopbit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
