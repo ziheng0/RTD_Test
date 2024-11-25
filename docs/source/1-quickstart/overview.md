@@ -37,8 +37,9 @@ FC20 is based on Qualcomm QCA102.
 
 ## Hardware Overview
  
-EC2x 支持SPI/I2C/Uart,Audio PCM/I2S接口、USB、SDIO、SIM卡、SGMII。详细需要查阅Hardware-Design.
-模组的硬件资源
+EC2x supports SPI/I2C/Uart, Audio PCM/I2S interface, USB, SDIO, SIM card, SGMII. 
+
+For details, please refer to hardware resources of the module
     
     USB
     SGMII
@@ -49,15 +50,11 @@ EC2x 支持SPI/I2C/Uart,Audio PCM/I2S接口、USB、SDIO、SIM卡、SGMII。详�
     SPI/I2C
     PCM/I2S
     
-    
+Please refer to Quectel_EC2x-QuecOpen_Hardware_Design_V1.0.pdf
 
-硬件请参考
+If you use Quectel's EVB, you need to get the schematics of the corresponding EVB and TE-A.
 
-    Quectel_EC21-QuecOpen_Hardware_Design_V1.0.pdf
-
-如果使用移远的EVB，需要拿到对应EVB和TE-A的原理图。
-
-移远的EC2x可以用在UMTS&LTE-EVB或者LTE OPEN-EVB上。
+Quectel's EC2x can be used on UMTS&LTE-EVB or LTE OPEN-EVB.
 
 
 

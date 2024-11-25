@@ -1601,7 +1601,7 @@ ENUM_VALUES_PER_LINE   = 4
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 TREEVIEW_WIDTH         = 250
-
+ENABLE_ENUM_VALUE      = YES
 # If the EXT_LINKS_IN_WINDOW option is set to YES, doxygen will open links to
 # external symbols imported via tag files in a separate window.
 # The default value is: NO.
