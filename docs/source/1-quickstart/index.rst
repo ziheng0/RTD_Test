@@ -12,6 +12,7 @@ Quick Start
     how-to-flash
     examples
     device_tree
+    sdk_examples
 
 
 .. only::  subproject and html

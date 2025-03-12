@@ -20,9 +20,6 @@
     @return
     on success, a non-negative integer for I2C device FD is returned.
     on failure, the return value is -1;
-
-    @dependencies
-    none.
 */
 /*=======================================================================*/
 int Ql_I2C_Init(char *dev_name);
