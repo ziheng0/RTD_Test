@@ -10,11 +10,17 @@ QACT, a kind of audio parameters adjustment tool provided by Qualcomm, is used t
 ACDB files are loaded into memory in the process of alsaucm_test. If the process is not enabled, online 
 calibration mode cannot be used on QACT tool.
 
-## import ACDB
+## Import ACDB
 
 Copy the SDK to Linux and execute the following command to unzip the SDK.
 
-    unzip sudo tar -jxvf EC20CETFDKR05A03V01M2G_OCPU_DJJ_SDK.tar.bz2
+```bash
+$ tar xvf EC25EFAR06A12M4G_OCPU_20.200.20.200_SDK.tar.bz2
+$ source ql-ol-crosstool/ql-ol-crosstool-env-init
 
+# Copy all the ACDB file to ql-ol-rootfs/etc
+$ make rootfs
 
+# Then flash the mdm9607-perf-sysfs.ubi to update the rootfs partition. 
+```
 

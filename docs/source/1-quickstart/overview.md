@@ -11,14 +11,14 @@ Linux distribution with kernel 3.18.
 
 ## Quectel module
 
-![](Quectel_Modules.png)
+![](../_static/Quectel_Modules.png)
 
 
 ## Software Framework
 
-![](quectel_overview.png)
+![](../_static/quectel_overview.png)
 
-![](peripheral_devices.png)
+![](../_static/peripheral_devices.png)
 
 
 ## Platform Info
@@ -41,14 +41,16 @@ EC2x supports SPI/I2C/Uart, Audio PCM/I2S interface, USB, SDIO, SIM card, SGMII.
 
 For details, please refer to hardware resources of the module
     
-    USB
-    SGMII
-    USIM
-    SDIO/SDC
-    WLAN
     UART
-    SPI/I2C
-    PCM/I2S
+    - Debug port (x1)
+    - Application UART port (x3): All of them support hardware handshake option
+    GPIO (more than 30)
+    I2C (x1)
+    SPI (x1)
+    PCM (x1)
+    ADC (x2)
+    SDIO (x2): one for Wi-Fi, and the other for SD card or eMMC.
+    SGMII  (x1)
     
 Please refer to Quectel_EC2x-QuecOpen_Hardware_Design_V1.0.pdf
 

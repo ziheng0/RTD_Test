@@ -13,48 +13,52 @@ run the script to enable the cross compile tool.
 
 hello.c
 
-    #include <stdio.h>
-    int main()
-    {
-        printf("hello world\n");
-        return 0;
-    }
+```c
+#include <stdio.h>
+int main()
+{
+    printf("hello world\n");
+    return 0;
+}
+```
 
 Makefile
 
-    default:
-        arm-oe-linux-gnueabi-gcc hello.c -o hello
+```bash
+default:
+    arm-oe-linux-gnueabi-gcc hello.c -o hello
+```    
 
 
 ## Linux kernel modules
 
 hello.c
+```c
+#include <linux/init.h>
+#include <linux/module.h>
+#include <linux/kernel.h>
 
-    #include <linux/init.h>
-    #include <linux/module.h>
-    #include <linux/kernel.h>
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Test");
+MODULE_VERSION("V1");
+MODULE_DESCRIPTION("Kernel example");
 
-    MODULE_LICENSE("GPL");
-    MODULE_AUTHOR("Test");
-    MODULE_VERSION("V1");
-    MODULE_DESCRIPTION("Kernel example");
+static int year = 2021;
 
-    static int year = 2021;
+static int __init hello_init(void)
+{
+    printk(KERN_WARNING "Hello Kernel, it's %d!\n", year);
+    return 0;
+}
 
-    static int __init hello_init(void)
-    {
-        printk(KERN_WARNING "Hello Kernel, it's %d!\n", year);
-        return 0;
-    }
+static void __exit hello_exit(void)
+{
+    printk("Bye, kernel!\n");
+}
 
-    static void __exit hello_exit(void)
-    {
-        printk("Bye, kernel!\n");
-    }
-
-    module_init(hello_init);
-    module_exit(hello_exit);
-
+module_init(hello_init);
+module_exit(hello_exit);
+```
 Makefile
 
 .. highlight:: c
