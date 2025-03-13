@@ -28,7 +28,7 @@ By directly downloading the embedded applications to Quectel modules to run, it 
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     1-quickstart/index
 
@@ -38,7 +38,7 @@ Platform-Stability
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     2-Platform-Stability/index
 
@@ -46,7 +46,7 @@ Network-Management
 ===========================================================
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     3-Network-Management/index
 
@@ -54,7 +54,7 @@ Peripheral-Interface
 ===========================================================
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     4-Peripheral-Interface/index
 
@@ -66,7 +66,7 @@ It works for both STD and QuecOpen module.
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     5-usb/index
 
@@ -78,7 +78,7 @@ Audio Part.
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     6-audio/index
 
@@ -90,7 +90,7 @@ Power Part.
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     7-power/index
 
@@ -101,7 +101,7 @@ Linux Applications
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     8-linux-apps/index
 
@@ -114,7 +114,7 @@ To make the module supported on Android.
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     android/index
 
@@ -126,7 +126,7 @@ To make the module supported on Android.
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     features/index
 
@@ -138,7 +138,7 @@ For testing only
 
 
 .. toctree::
-      :maxdepth: 1
+    :maxdepth: 1
 
     test_page/index
 

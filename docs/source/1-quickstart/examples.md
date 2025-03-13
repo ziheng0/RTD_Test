@@ -2,34 +2,34 @@
 
 This is part is show how to test the examples in the ql-ol-extsdk.
 
-run the script to enable the cross compile tool.
+Run the script to enable the cross compile tool.
 
     source ql-ol-crosstool/ql-ol-crosstool-env-init
     QUECTEL_PROJECT_NAME      =EC25E
     QUECTEL_PROJECT_REV       =EC25EFAR06A12M4G_OCPU_20.200
 
 
-## Linux UserSpace APP
+## Linux User Space APP
 
-hello.c
-
+we can use below example code hello.c and makefile to compile.
+```C
     #include <stdio.h>
     int main()
     {
         printf("hello world\n");
         return 0;
     }
-
+```
 Makefile
-
+```makefile
     default:
         arm-oe-linux-gnueabi-gcc hello.c -o hello
-
+```
 
 ## Linux kernel modules
-
+Below is example kernel module source code.
 hello.c
-
+```c
     #include <linux/init.h>
     #include <linux/module.h>
     #include <linux/kernel.h>
@@ -54,7 +54,7 @@ hello.c
 
     module_init(hello_init);
     module_exit(hello_exit);
-
+```
 Makefile
 
 .. highlight:: c
