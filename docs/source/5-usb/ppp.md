@@ -112,7 +112,7 @@ I conclude those attention:
 
 	2. killall will show 
 
-![](../_static/pppdkillall.png)
+![](../_static/images/pppdkillall.png)
 
 	and you'll see the ppp end up normally.
 	

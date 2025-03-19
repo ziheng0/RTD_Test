@@ -62,41 +62,70 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
 ```
 
 ## Docker compilation environment
+[Docker](https://www.docker.com/) is an open source platform for developing, delivering, and running applications. It leverages containerization technology, enabling developers to package applications and their dependencies into a portable container called a Docker container. These containers can run quickly and consistently on any machine running Docker, whether it is a development environment, a test environment, or a production environment.
 
+**Steps**
+1. Download the official installation script.
+
+    ```bash
+    $ curl -fsSL https://test.docker.com -o test-docker.sh
+    ```
+
+1. Execute the script
+
+    ```bash
+    sudo sh test-docker.sh
+    ```
+    
+    ![](../_static/images/test_docker.png)
+
+1. Check the Docker version information. If the version information can be output, the installation is successful.
+
+    ```bash
+    docker version
+    ```
+    ![](../_static/images/docker_v.png)
+
+1.  Try running the hello-world image to verify that Docker is installed correctly.
+
+    ```bash
+    docker run hello-world
+    ```
+    ![](../_static/images/docker_run_hello.png)
 
 ## Compile 
 
-### Enable the cross tool
+1. Enable the cross tool
 
-```bash
-cd ql-ol-sdk 
+    ```bash
+    cd ql-ol-sdk 
 
-source ql-ol-crosstool/ql-ol-crosstool-env-init
-QUECTEL_PROJECT_NAME      =EC25E
-QUECTEL_PROJECT_REV       =EC25EFAR06A12M4G_OCPU_20.200
-Relocating ............done
-Extracting the rootfs...
-Done.
-```
+    source ql-ol-crosstool/ql-ol-crosstool-env-init
+    QUECTEL_PROJECT_NAME      =EC25E
+    QUECTEL_PROJECT_REV       =EC25EFAR06A12M4G_OCPU_20.200
+    Relocating ............done
+    Extracting the rootfs...
+    Done.
 
-### Build the kernel    
+    make kernel_menuconfig
+    ```
 
-```bash
-make kernel_menuconfig
-make kernel
-make kernel_module
-```
+1. Build the kernel    
 
-### Build the rootfs
+    ```bash
+    make kernel
+    ```
 
-```bash
-make rootfs
-```
+1. Build the rootfs
 
-### Build the userdata
+    ```bash
+    make rootfs
+    ```
 
-```bash
-make usrsdata
-```
+1. Build the userdata
+
+    ```bash
+    make usrsdata
+    ```
 
 

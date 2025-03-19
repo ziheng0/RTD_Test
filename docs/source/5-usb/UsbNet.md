@@ -87,7 +87,7 @@ However, Quectel IP Multiplexing and IP Aggregation is not supported on that dri
 
 QMI will match interface 4 with itself.
 
-![](../_static/qmi_if4.png)
+![](../_static/images/qmi_if4.png)
 
 
 
@@ -129,7 +129,7 @@ EC21/EC25/EG06/EP06/EM06/EG12/EP12/EM12/EG16/EG18/EM20/RG500 all support QMAP.
 
 Ex06/Ex12/EM20/Rx500Q will force to use QMAP. 
 
-![](../_static/qmi_wwan_bind_force.png)
+![](../_static/images/qmi_wwan_bind_force.png)
 
 	[244838.067277] usbcore: registered new interface driver qmi_wwan_q 
 	[244844.970420] usb 2-1.2: new high-speed USB device number 22 using sunxi-ehci 

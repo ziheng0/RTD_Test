@@ -11,14 +11,14 @@ Linux distribution with kernel 3.18.
 
 ## Quectel module
 
-![](../_static/Quectel_Modules.png)
+![](../_static/images/Quectel_Modules.png)
 
 
 ## Software Framework
 
-![](../_static/quectel_overview.png)
+![](../_static/images/quectel_overview.png)
 
-![](../_static/peripheral_devices.png)
+![](../_static/images/peripheral_devices.png)
 
 
 ## Platform Info

@@ -1,6 +1,6 @@
 # GPIO
 
-![](../_static/Interfaces-Multiplexing-Pins.png)
+![](../_static/images/Interfaces-Multiplexing-Pins.png)
 
 
 
