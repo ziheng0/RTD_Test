@@ -9,7 +9,7 @@
 
 ## Quectel Open SDK
 
-Here let's take the `EC25EFAR06A12M4G_OCPU_20.200.20.200` SDK version as exampole, the SDK package unzipped process must be done under non-root Ubuntu environment.
+Here let's take the `EC25EFAR06A12M4G_OCPU_20.200.20.200` SDK version as an example, the unzip process should be done by a non-root user in a Ubuntu environment.
 
 ```bash
 $ tar xvf EC25EFAR06A12M4G_OCPU_20.200.20.200_SDK.tar.bz2
@@ -27,8 +27,6 @@ $ tree -L 1
 └── target
 ```
 
-
-
 |     Directory    |     Content               |
 |   ------         |       ------              |
 | ql-ol-crosstool  | Cross tool chain               |
@@ -37,14 +35,12 @@ $ tree -L 1
 | ql-ol-rootfs     | Root file system for platform runtime |
 | ql-ol-extsdk     | Include API，example and tools        |
 
-
-
 ## Ubuntu Environment
 
-It is better to try Quectel SDK on Ubuntu 16.04 or 18.04, and not try the SDK on Ubuntu later than 22.04.
+It is best to try Quectel SDK on Ubuntu 16.04 or 18.04. Ubuntu 22.04 and above is not tested.
 
 Or you can refer to [the compilation environment using Docker](#docker-compilation-environment)
-    
+
 ```bash
 $ sudo apt-get install -y \
     perl  sudo mc re2c wget  sudo \
@@ -62,13 +58,15 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
 ```
 
 ## Docker compilation environment
+
 [Docker](https://www.docker.com/) is an open source platform for developing, delivering, and running applications. It leverages containerization technology, enabling developers to package applications and their dependencies into a portable container called a Docker container. These containers can run quickly and consistently on any machine running Docker, whether it is a development environment, a test environment, or a production environment.
 
 **Steps**
+
 1. Download the official installation script.
 
     ```bash
-    $ curl -fsSL https://test.docker.com -o test-docker.sh
+    curl -fsSL https://test.docker.com -o test-docker.sh
     ```
 
 1. Execute the script
@@ -76,7 +74,7 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
     ```bash
     sudo sh test-docker.sh
     ```
-    
+
     ![](../_static/images/test_docker.png)
 
 1. Check the Docker version information. If the version information can be output, the installation is successful.
@@ -84,16 +82,18 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
     ```bash
     docker version
     ```
+
     ![](../_static/images/docker_v.png)
 
-1.  Try running the hello-world image to verify that Docker is installed correctly.
+1. Try running the hello-world image to verify that Docker is installed correctly.
 
     ```bash
     docker run hello-world
     ```
+
     ![](../_static/images/docker_run_hello.png)
 
-## Compile 
+## Compile
 
 1. Enable the cross tool
 
@@ -110,7 +110,7 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
     make kernel_menuconfig
     ```
 
-1. Build the kernel    
+1. Build the kernel
 
     ```bash
     make kernel
@@ -127,5 +127,3 @@ $ sudo update-alternatives --install /usr/bin/python  python /usr/bin/python2  2
     ```bash
     make usrsdata
     ```
-
-
