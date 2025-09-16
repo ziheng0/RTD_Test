@@ -1,13 +1,14 @@
 # Quectel EXTSDK Examples
 
-This is part is show how to test the examples in the ql-ol-extsdk.
+This part shows how to test the examples in ql-ol-extsdk.
 
 run the script to enable the cross compile tool.
 
-    source ql-ol-crosstool/ql-ol-crosstool-env-init
-    QUECTEL_PROJECT_NAME      =EC25E
-    QUECTEL_PROJECT_REV       =EC25EFAR06A12M4G_OCPU_20.200
-
+```sh
+source ql-ol-crosstool/ql-ol-crosstool-env-init
+QUECTEL_PROJECT_NAME      =EC25E
+QUECTEL_PROJECT_REV       =EC25EFAR06A12M4G_OCPU_20.200
+```
 
 ## Linux UserSpace APP
 
@@ -27,12 +28,12 @@ Makefile
 ```bash
 default:
     arm-oe-linux-gnueabi-gcc hello.c -o hello
-```    
-
+```
 
 ## Linux kernel modules
 
 hello.c
+
 ```c
 #include <linux/init.h>
 #include <linux/module.h>
@@ -59,17 +60,15 @@ static void __exit hello_exit(void)
 module_init(hello_init);
 module_exit(hello_exit);
 ```
+
 Makefile
 
 .. highlight:: c
 
-    obj-m := hello.o
-    all:
-      $(MAKE) ARCH=arm CROSS_COMPILE=arm-oe-linux-gnueabi- -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
-
+```
+obj-m := hello.o
+all:
+$(MAKE) ARCH=arm CROSS_COMPILE=arm-oe-linux-gnueabi- -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+```
 
 ## ql-ol-extsdk
-
-
-
-
