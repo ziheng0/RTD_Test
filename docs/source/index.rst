@@ -34,12 +34,7 @@ By directly downloading the embedded applications to Quectel modules to run, it 
 
    UNISOC/index
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 
 

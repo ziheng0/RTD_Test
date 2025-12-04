@@ -10,6 +10,7 @@ pip install <python modules>
 ```
 3. Compile
 ```bash
+cd docs
 make html
 ```
 
