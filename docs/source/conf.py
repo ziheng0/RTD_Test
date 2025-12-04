@@ -46,10 +46,6 @@ html_logo = './_static/images/quectel-logo.png'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-<<<<<<< HEAD
-
-=======
 html_css_files = [
     'css/custom.css',
 ]
->>>>>>> rodney_dev

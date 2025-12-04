@@ -343,7 +343,7 @@ udhcpc
 
 You will see log as follow:
 
-![](CM1.jpg)
+![](../_static/images/CM1.jpg)
 
 There will be no more log later.
 

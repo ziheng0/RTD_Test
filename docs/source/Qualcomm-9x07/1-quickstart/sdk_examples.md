@@ -28,7 +28,7 @@ You can find more here.
     Users can short-circuit the GPIO used for testing to the LED lights on the development board and observe the LED lights turning on and off.
     Please refer to the following video for more information
 
-1. Demo Video
+1. Demo Video  
 <video src="../_static/video/example_gpio.mp4" controls="controls" width="600" height="400">
 </video>
 
@@ -54,7 +54,7 @@ You can find more here.
    $  ./example_uart 115200
    ```
 
-1. Demo Video
+1. Demo Video  
 <video src="../_static/video/example_uart.mp4" controls="controls" width="600" height="400">
 </video>
 
@@ -80,7 +80,7 @@ You can find more here.
    $  ./example_spi
    ```
 
-1. Demo Video
+1. Demo Video  
 <video src="../_static/video/example_spi.mp4" controls="controls" width="600" height="400">
 </video>
 
@@ -105,7 +105,7 @@ You can find more here.
    $  ./example_i2c
    ```
 
-1. Demo Video
+1. Demo Video  
 <video src="../_static/video/example_i2c.mp4" controls="controls" width="600" height="400">
 </video>
 
