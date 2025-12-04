@@ -29,7 +29,7 @@ You can find more here.
     Please refer to the following video for more information
 
 1. Demo Video  
-<video src="../_static/video/example_gpio.mp4" controls="controls" width="600" height="400">
+<video src="../../_static/video/example_gpio.mp4" controls="controls" width="600" height="400">
 </video>
 
 ## Example UART
@@ -55,7 +55,7 @@ You can find more here.
    ```
 
 1. Demo Video  
-<video src="../_static/video/example_uart.mp4" controls="controls" width="600" height="400">
+<video src="../../_static/video/example_uart.mp4" controls="controls" width="600" height="400">
 </video>
 
 ## Example SPI
@@ -81,7 +81,7 @@ You can find more here.
    ```
 
 1. Demo Video  
-<video src="../_static/video/example_spi.mp4" controls="controls" width="600" height="400">
+<video src="../../_static/video/example_spi.mp4" controls="controls" width="600" height="400">
 </video>
 
 ## Example I2C
@@ -106,7 +106,7 @@ You can find more here.
    ```
 
 1. Demo Video  
-<video src="../_static/video/example_i2c.mp4" controls="controls" width="600" height="400">
+<video src="../../_static/video/example_i2c.mp4" controls="controls" width="600" height="400">
 </video>
 
 
