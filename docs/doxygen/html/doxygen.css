@@ -1,7 +1,7 @@
 /* The standard CSS for doxygen 1.9.1 */
 
 body, table, div, p, dl {
-	font: 400 14px/22px Roboto,sans-serif;
+	font: 600 14px/22px Roboto,sans-serif;
 }
 
 p.reference, p.definition {
