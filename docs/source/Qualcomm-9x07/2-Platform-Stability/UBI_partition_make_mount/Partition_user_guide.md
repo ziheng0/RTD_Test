@@ -17,7 +17,7 @@ As shown in step 2.1, the four files generated after compilation are replaced wi
 ![alt text](image-3.png)
 
 ## 2.Validation
-Upgrade the module using the firmware package that replaces the file. After the upgrade is complete, the debug port can see the newly added partition. 
+Upgrade the module using the firmware package that replaces the file. After the upgrade is complete, the debug port can see the newly added partition.   
 ![alt text](image-4.png)
 
 At this point, the partition is only being added and has not yet been mounted as a UBI file system.  

@@ -11,22 +11,22 @@
 
 
 ### 1.2. Download
->**Windows**：
-ArmTracer: [ArmTracer_V6.2.8_User]("https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/ER0x2g5jWLpLi9fR118D8XsBt7fboHwwuEDE68mj-nQznw?e=6EGp7d"%3EArmTracer_V6.2.8_User.7z%3C/a%3E)
-Cooltools: [cooltools-win32_custom-P3.R2.0.0010](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EQLAConEAMhKjg_8Js3inqwBgqnpRMJCcgYVEvdRLGeizw?e=QYvbpm)
-QCOM: [QCOM_V1.6]("https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EUahMKv4vmJGp38JPEtpez8Bqv_fLvs7wN6j8E38uNcrVQ?e=9cFV3z"%3EQCOM_V1.6.zip%3C/a%3E)
-USB Driver: [USB Driver]("https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/ERbcTwJBEm5Jj9xFbrB672UByh_s9fGoFv0glT64bkzDwg?e=PhCp3c"%3EQuectel_Windows_USB_Driver%28U%29_V1.1.0.zip%3C/a%3E)
+>**Windows Tools**：  
+[ArmTracer_V6.2.8_User](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/ER0x2g5jWLpLi9fR118D8XsBt7fboHwwuEDE68mj-nQznw?e=6EGp7d"%3EArmTracer_V6.2.8_User.7z%3C/a%3E)   
+[cooltools-win32_custom-P3.R2.0.0010](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EQLAConEAMhKjg_8Js3inqwBgqnpRMJCcgYVEvdRLGeizw?e=QYvbpm)  
+[QCOM_V1.6](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EUahMKv4vmJGp38JPEtpez8Bqv_fLvs7wN6j8E38uNcrVQ?e=9cFV3z"%3EQCOM_V1.6.zip%3C/a%3E)    
+[USB Driver](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/ERbcTwJBEm5Jj9xFbrB672UByh_s9fGoFv0glT64bkzDwg?e=PhCp3c"%3EQuectel_Windows_USB_Driver%28U%29_V1.1.0.zip%3C/a%3E)  
 
->**Linux**:
-QLog: [QLog_Linux_and_Android_V1.5.28]("https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EXxWwnmuZXNLmL6lHKPGv3MBSYDgTDeyBN6pQnLvQgn0Rg?e=ugjJe6"%3EQLog_Linux_and_Android_V1.5.28.zip%3C/a%3E)
-Linux USB Driver: [Quectel_Linux_USB_Serial_Option_Driver_V1.0]("https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EULnFLy5AjpIkHrWPkIu4rYBgPlNqGhtHAwjLPJ-HMzTxQ?e=gnxHJ8"%3EQuectel_Linux_USB_Serial_Option_Driver_V1.0.tgz%3C/a%3E)
+>**Linux Tools**:   
+[QLog_Linux_and_Android_V1.5.28](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EXxWwnmuZXNLmL6lHKPGv3MBSYDgTDeyBN6pQnLvQgn0Rg?e=ugjJe6"%3EQLog_Linux_and_Android_V1.5.28.zip%3C/a%3E)  
+[Quectel_Linux_USB_Serial_Option_Driver_V1.0](https://cnquectel-my.sharepoint.com/:u:/g/personal/leon_bao_quectel_com/EULnFLy5AjpIkHrWPkIu4rYBgPlNqGhtHAwjLPJ-HMzTxQ?e=gnxHJ8"%3EQuectel_Linux_USB_Serial_Option_Driver_V1.0.tgz%3C/a%3E)
 
 
 ## 2. Windows Environment
 ###  2.1. Test Environment:
->**System**:Windows 10
-**Driver**:Quectel_Windows_USB_Driver(U)_V1.1.0
-**Module**:EC200UCNLB
+>**System**:Windows 10  
+**Driver**:Quectel_Windows_USB_Driver(U)_V1.1.0  
+**Module**:EC200UCNLB  
 
 ### 2.2. AP Log Capture
 #### 2.2.1. Tool Connection And Usage
