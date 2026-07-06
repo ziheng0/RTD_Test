@@ -13,7 +13,7 @@ Peripheral Device Support
     I2S_Interface
     SPI
     SPI_Flash
-    Uart
+    UART
 
 
 .. only::  subproject and html

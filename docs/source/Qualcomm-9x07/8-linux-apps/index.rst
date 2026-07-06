@@ -9,7 +9,9 @@ Linux Applications
 
     time
     json-xml
-
+    ftp-server
+    eclipse-paho
+    
 .. only::  subproject and html
 
    Indices

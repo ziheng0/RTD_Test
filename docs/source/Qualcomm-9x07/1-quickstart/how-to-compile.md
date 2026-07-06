@@ -1,4 +1,4 @@
-# How to Compile
+# How to Compile SDK
 
 **Topics**
 

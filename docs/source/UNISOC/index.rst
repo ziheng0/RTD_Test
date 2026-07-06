@@ -20,6 +20,7 @@ EG800G series, EG91xU family and EG915G-EU modules.
    Peripheral-Interface/index
    Network/index
    Memory/index
+   Application/index
 
 
 

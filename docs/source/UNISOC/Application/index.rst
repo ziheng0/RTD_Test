@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Network user Guide
+User application
 ===================================================================
 
 .. toctree::
    :maxdepth: 1
    
-   Datacall
-   socket/socket
+   Bluetooth/Bluetooth
+   mqtt/mqtt
+   GNSS/GNSS
    
 
 
